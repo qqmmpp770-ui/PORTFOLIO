@@ -64,8 +64,9 @@ body {
 }
 
 .pit {
-    top: 22%;
-    left: 2%;
+    transform: translate(-50%, -50%);
+    top: 58%;
+    left: 50%;
     width: 1800px;
     height: 695px;
     background: url("../img/pit.png") no-repeat center/contain;
@@ -166,23 +167,18 @@ body {
 .key {
     animation-delay: 0s;
 }
-
 .mi {
     animation-delay: 0.2s;
 }
-
 .sp {
     animation-delay: 0.4s;
 }
-
 .dia {
     animation-delay: 0.6s;
 }
-
 .ha {
     animation-delay: 0.8s;
 }
-
 .rose {
     animation-delay: 1s;
 }
@@ -199,7 +195,6 @@ body {
     }
 }
 
-
 /* 22222222222222222222222222222222 */
 .p_one {
     width: 1920px;
@@ -207,7 +202,6 @@ body {
     overflow: hidden;
     display: none;
 }
-
 .background_1 {
     position: relative;
     width: 100%;
@@ -216,7 +210,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
 .back {
     position: absolute;
     z-index: 999;
@@ -226,7 +219,6 @@ body {
     height: 100px;
     background: url("../img/BACK.png") no-repeat center/contain;
 }
-
 .back:hover {
     cursor: pointer;
     filter:
@@ -252,7 +244,6 @@ body {
         opacity: 1;
     }
 }
-
 .th,
 .two,
 .one {
@@ -267,17 +258,14 @@ body {
     opacity: 0;
     animation: count 1s ease-in-out forwards;
 }
-
 .th {
     background-image: url("../img/th.png");
     animation-delay: 0s;
 }
-
 .two {
     background-image: url("../img/two.png");
     animation-delay: 1s;
 }
-
 .one {
     background-image: url("../img/one.png");
     animation-delay: 2s;
@@ -1044,7 +1032,7 @@ body {
     margin-top: 8px;
     text-align: center;
     color: #111;
-    font-size: clamp(10px, 0.85vw, 16px);
+    font-size:16px;
     line-height: 1.4;
 }
 

@@ -1,0 +1,238 @@
+@media(max-width: 1440px) {
+    .intro {
+        width: 100%;
+        height: 100vh;
+        min-height: 600px;
+        overflow: hidden;
+    }
+    .background {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-size: 100% 100%;
+    }
+    .crown {
+        top: 10%;
+        width: clamp(75px, 6.6vw, 95px);
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+    .name {
+        width: 96%;
+        height: auto;
+        aspect-ratio: 1700 / 450;
+    }
+    .pit {
+        top: 23%;
+        left: 50%;
+        width: 110%;
+        height: auto;
+        aspect-ratio: 1800 / 695;
+        transform: translateX(-50%);
+    }
+    .key {
+        top: 15%;
+        width: clamp(130px, 13.9vw, 170px);
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+    .mi {
+        right: -7%;
+        width: clamp(220px, 20.8vw, 260px);
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+    .sp {
+        left: 7%;
+        top: 50%;
+        width: clamp(180px, 16.7vw, 180px);
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+    .ha {
+        right: 0%;
+        width: clamp(180px, 16.7vw, 240px);
+        height: auto;
+        aspect-ratio: 240 / 230;
+    }
+    .dia {
+        right: -6%;
+        width: clamp(180px, 16.7vw, 240px);
+        height: auto;
+        aspect-ratio: 240 / 300;
+    }
+    .rose {
+        width: clamp(150px, 13.9vw, 200px);
+        height: auto;
+        aspect-ratio: 1 / 1;
+        left: 15%;
+    }
+    .Arrow {
+        top: 53%;
+        width: clamp(70px, 6.25vw, 90px);
+        height: auto;
+        aspect-ratio: 1 / 1;
+    }
+    .openthing,
+    .leftthing {
+        top: 59%;
+    }
+    .cording {
+        width: 17%;
+        top: 42%;
+    }
+    .design {
+        width: 30%;
+        left: 58%;
+    }
+    .mytrump {
+        left: 75%;
+    }
+    .dari{
+        top: -3%;
+    }
+    .project2 h1 {
+        left: 50%;
+        top: 10%;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 30px;
+        width: 100%;
+    }
+    .project2 .design-item-logo,
+    .project2 .landing-page,
+    .project2 .app-design {
+        top: 20%;
+    }
+
+    .design-caption {
+        font-weight: bold;
+    }
+
+    .paper_last {
+        height: 72%;
+        top: 15%;
+    }
+}
+@media(max-width: 1024px) {
+    .pit {
+        top: 28%;
+    }
+
+    .crown {
+        top: 17%;
+    }
+
+    .sp {
+        top: 35%;
+    }
+
+    .mi {
+        top: 20%;
+    }
+
+    .Arrow {
+        top: 48%;
+    }
+
+    .rose {
+        width: 18%;
+        left: 18%;
+    }
+
+    .openthing,
+    .leftthing {
+        top: 72%;
+    }
+
+    .resume {
+        width: 80%;
+    }
+
+    .photo {
+        height: 300px;
+        width: 300px;
+    }
+
+    .cording {
+        width: 23%;
+        top: 46%;
+    }
+
+    .design {
+        width: 30%;
+        top: 72%;
+        left: 64%;
+        z-index: 10;
+    }
+
+    .mytrump {
+        top: 68%;
+        left: 59%;
+    }
+
+    .next-key2 {
+        width: 15%;
+        top: 81%;
+    }
+
+    .project {
+        width: 75%;
+        left: 40%;
+    }
+
+    .project h1 {
+        top: 20%;
+        font-size: 40px;
+    }
+
+    .human {
+        width: 26%;
+        top: 62%;
+    }
+
+    .p_three .project-list {
+        width: 92%;
+        left: 4%;
+        top: 30%;
+    }
+
+    .back {
+        left: 3%;
+        top: 90%;
+        width: 100px;
+    }
+
+    .back_onthepaper {
+        top: 78%;
+        width: 60px;
+        left: 90%;
+    }
+
+    .dessert2 {
+        width: 40%;
+        height: 40%;
+        top: 32%;
+    }
+
+    .scroll-back {
+        width: 100px;
+        left: 3%;
+        bottom: 0%
+    }
+
+    .key3 {
+        width: 15%;
+        left: 75%;
+    }
+
+    .big {
+        top: 10%;
+        height: 100%;
+    }
+
+    .paper_last {
+        height: 55%;
+    }
+
+}
